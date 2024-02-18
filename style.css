@@ -1,0 +1,39 @@
+/* Estilos para o desenho pixelado */
+#pixel-grid {
+    display: grid;
+    grid-template-columns: repeat(20, 20px); /* Defina o tamanho do grid conforme necessário */
+    grid-template-rows: repeat(20, 20px);
+    border: 1px solid black;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent; /* Adiciona uma borda ao pixel */
+    box-sizing: border-box; /* Garante que a borda não altere o tamanho do pixel */
+}
+
+#color-palette {
+    margin-top: 10px;
+}
+
+#tools {
+    margin-bottom: 10px;
+}
+
+.tool {
+    margin-right: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#menu {
+    margin-bottom: 10px;
+}
+
+/* Adicione mais estilos conforme necessário */
